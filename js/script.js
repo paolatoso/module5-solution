@@ -137,7 +137,7 @@ function chooseRandomCategory (categories) {
   // return category object with that randomArrayIndex
   return categories[randomArrayIndex];
 }
-
+console.log (buildAndShowHomeHTML());
 
 // Load the menu categories view
 dc.loadMenuCategories = function () {
