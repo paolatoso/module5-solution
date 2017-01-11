@@ -127,7 +127,7 @@ insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
-console.log (buildAndShowHomeHTML());
+console.log(buildAndShowHomeHTML);
 
 // Given array of category objects, returns a random category object.
 function chooseRandomCategory (categories) {
@@ -137,7 +137,7 @@ function chooseRandomCategory (categories) {
   // return category object with that randomArrayIndex
   return categories[randomArrayIndex];
 }
-console.log (buildAndShowHomeHTML());
+
 
 // Load the menu categories view
 dc.loadMenuCategories = function () {
